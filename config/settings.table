@@ -1,0 +1,10 @@
+﻿{
+autoclose_model_form=0;
+rdConfirmDelete2=0;
+edit_dbpath="/data/biz.db";
+edit_Orgs='行政部;\r\n销售部;\r\n后勤部;';
+rdConfirmDelete1=1;
+dbpath="/data/biz.db";
+confirm_delete=true;
+edit_companyname="快乐的公司"
+}

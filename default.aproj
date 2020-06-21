@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="简易进销存" libEmbed="true" icon="" ui="win" output="简易进销存.exe" CompanyName="单位名称" FileDescription="简易进销存" LegalCopyright="Copyright (C) 糊糊 2019" ProductName="简易进销存" InternalName="简易进销存" FileVersion="0.0.0.05" ProductVersion="0.0.0.05" publishDir="/Publish/" dstrip="false" local="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true" local="false">
+		<file name="toolbar.gif" path="res\toolbar.gif" comment="res\toolbar.gif"/>
+		<folder name="models" path="res\models" comment="res\models">
+			<file name="company.sql.aardio" path="res\models\company.sql.aardio" comment="res\models\company.sql.aardio"/>
+			<file name="goods_category.sql.aardio" path="res\models\goods_category.sql.aardio" comment="res\models\goods_category.sql.aardio"/>
+			<file name="store.sql.aardio" path="res\models\store.sql.aardio" comment="res\models\store.sql.aardio"/>
+		</folder>
+		<folder name="templates" path="res\templates" comment="res\templates"/>
+	</folder>
+	<folder name="窗体文件" path="dlg" comment="目录" embed="true" local="false">
+		<file name="goods_purchase.aardio" path="dlg\goods_purchase.aardio" comment="dlg\goods_purchase.aardio"/>
+		<file name="goods_purchase_history.aardio" path="dlg\goods_purchase_history.aardio" comment="dlg\goods_purchase_history.aardio"/>
+		<file name="goods_select.aardio" path="dlg\goods_select.aardio" comment="dlg\goods_select.aardio"/>
+		<file name="goods_sell.aardio" path="dlg\goods_sell.aardio" comment="dlg\goods_sell.aardio"/>
+		<file name="model_form.aardio" path="dlg\model_form.aardio" comment="dlg\model_form.aardio"/>
+		<file name="model_list.aardio" path="dlg\model_list.aardio" comment="dlg\model_list.aardio"/>
+		<file name="select_fields.aardio" path="dlg\select_fields.aardio" comment="dlg\select_fields.aardio"/>
+		<file name="settings.aardio" path="dlg\settings.aardio" comment="dlg\settings.aardio"/>
+	</folder>
+</project>

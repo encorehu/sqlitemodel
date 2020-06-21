@@ -1,0 +1,10 @@
+
+media
+*.pyc
+*.pui
+*.prj
+*.db
+log/*.*
+temp
+Thumbs.db
+test*
